@@ -36,9 +36,9 @@ get '/contractors/:id' do
   contractors.to_json
 end
 
-get "/adverts" do 
+get "/adverts" do
   adverts = Advert.all
-  adverts.to.json
+  adverts.to_json
 end
 
 get '/adverts/:id' do
