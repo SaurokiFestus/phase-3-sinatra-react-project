@@ -6,7 +6,7 @@ class ApplicationController < Sinatra::Base
     "Welcome to BillAd DB"
   end
 
-  get "/locations" do
+  get "/location" do
     locations= Location.all   
     locations.to_json
   end
