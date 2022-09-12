@@ -76,7 +76,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   faker
-  pg
+  pg (~> 1.4.3, >= 1.4.3)
   pry
   psych (~> 4.0.0)
   rack-contrib
